@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <script src="https://kit.fontawesome.com/35ed3497d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">Pomodoro</h1>
+    </header>
+    <section class="container">
+        <div class="Work">
+            
+            <div class="button-arrow">
+                <button><img class="arrow" id="up-arrow-work" src="svg/arrow-up.svg"/>  </button>
+                <button><img class="arrow" id="down-arrow-work" src="svg/Arrow-down.svg" /></button>
+            </div>
+
+            <div class="time-div">
+                <p class="time" id="work-time">25</p>
+            </div>
+            
+            <p class="minutes">Minutos</p>
+            <p class="event">Trabalho</p>
+
+        </div>
+        <div class="pause">
+           
+            <div class="button-arrow">
+                <button><img class="arrow" id="up-arrow-pause" src="svg/arrow-up.svg"/>  </button>
+                <button><img class="arrow"  id="down-arrow-pause" src="svg/Arrow-down.svg"/></button>
+            </div>
+
+            <div class="time-div">
+                <p class="time" id="pause-time">5</p>
+            </div>
+            
+            <p class="minutes">Minutos</p>
+            <p class="event">
+               Pausa
+           </p>
+        </div>
+        <div class="season">
+            
+            
+            <div class="button-arrow">
+                <button><img class="arrow" id="up-arrow-season" src="svg/arrow-up.svg"/>  </button>
+                <button><img class="arrow" id="down-arrow-season" src="svg/Arrow-down.svg"/></button>
+            </div>
+
+            <div class="time-div">
+                  <p class="time"  id="season-time">3</p>
+            </div>
+            
+            
+            <p class="minutes">Minutos</p>
+            <p class="event"> 
+                 Sessões
+            </p>
+        </div>
+        
+
+        
+    </section>
+    <section class="start-button">
+        <button>Começar</button>
+    </section>
+
+    <script src="script/app.js"></script>
+</body>
+</html>
+
+
